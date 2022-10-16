@@ -1,0 +1,52 @@
+/* .fade-in-img {
+  animation: fadein 4s;
+  pointer-events: none;
+}
+*/
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.hr1 {
+  background-color: #95907F;
+  background-color: transparent;
+  border-style: dotted none none none;
+  height: 5px;
+  width: 70%;
+}
+
+body {
+  background-color: #E2DCC8;
+  font-family: "Courier New";
+  animation: fadein 5s;
+}
+
+hr {
+  background-color: transparent;
+  border-style: dotted none none none;
+    width: 7%;
+  border-width: 6px;
+  border-color: #95907F;
+}
+
+h1 {
+  color: #0F3D3E;
+}
+
+h2 {
+  color: #0F3D3E;
+}
+
+h3 {
+  color: #0F3D3E;
+}
+
+h4 {
+  color: #0F3D3E;
+}
