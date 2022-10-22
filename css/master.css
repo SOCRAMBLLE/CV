@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #0F3D3E;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  color: #196567;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #196567;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #196567;
+
+}
+
+/*******************TOP CONTAINER*******************/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+    }
+
+.enthusiast-head {
+  font-weight: normal;
+}
+
+.coding-text {
+  text-decoration: underline;
+}
+
+/*******************MIDDLE CONTAINER*******************/
+.middle-container {
+
+}
+
+.profile-pic {
+  position: relative;
+  padding-top: 25px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.web-skill-description {
+
+}
+
+
+/*******************BOTTOM CONTAINER*******************/
+.bottom-container {
+
+}
+
+.coding {
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px
+  }
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.hr1 {
+  background-color: transparent;
+  border-style: dotted none none none;
+  width: 9%;
+  border-width: 10px;
+  border-color: #95907F;
+}
+
+.spacer {
+  height: 6px;
+}
+
+.btn {
+  color: #95907F;
+  font-weight: bold;
+  font-family: "Courier New", sans-serif;
+  font-size: 1.1rem;
+}
+
+.footer-link {
+  color: #95907F;
+  font-weight: bold;
+  font-family: "Courier New", sans-serif;
+  font-size: 1.1rem;
+}
