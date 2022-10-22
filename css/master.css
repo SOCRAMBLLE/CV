@@ -43,6 +43,15 @@ p {
   line-height: 2;
 }
 
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 /*******************TOP CONTAINER*******************/
 .top-container {
   position: relative;
@@ -76,9 +85,15 @@ p {
   margin: 100px 0;
 }
 
-.profile-pic {
+.profile-pic1 {
+  position: absolute;
+  padding-top: 25px;
+}
+
+.profile-pic2 {
   position: relative;
   padding-top: 25px;
+  animation: fadein 5s;
 }
 
 .intro-txt {
@@ -103,8 +118,6 @@ p {
   float: right;
   margin-left: 30px;
 }
-
-.web-skill-description {}
 
 .btn {
   background: #e2dcc8;
@@ -155,7 +168,7 @@ p {
 
 .cert {
   color: #EAF6F6;
-  padding: 20px 0px 40px 0px;
+  padding: 20px 0 40px 0;
   text-shadow: 2px 2px 0 #BBB5A2;
   font-family: 'Montserrat', sans-serif;
 }
