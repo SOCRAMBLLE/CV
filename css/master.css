@@ -155,7 +155,7 @@ p {
   margin: 10px 20px
 }
 
-a:hover {
+.footer-link:hover {
   color: #F7F2E2;
 }
 
