@@ -93,7 +93,14 @@ p {
 .profile-pic2 {
   position: relative;
   padding-top: 25px;
-  animation: fadein 5s;
+  animation: fadein 2s;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.profile-pic2:hover {
+  opacity: .5;
+  transition: opacity .2s ease-out;
 }
 
 .intro-txt {
