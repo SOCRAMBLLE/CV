@@ -16,12 +16,13 @@ body {
 
     .navbar {
       font-size: 20px;
-      
+
     }
 
     .brand-logo-txt {
       font-size: 40px;
     }
+
 }
 
 h1 {
@@ -101,7 +102,13 @@ p {
 
   position: absolute;
   top: 1.5em;
+}
 
+@media (max-width: 800px) {
+  .portf-hover-txt:before{
+    top: 2em;
+    margin: 0 11px 0 11px;
+  }
 }
 
 .portf-hover-txt:hover:before {
