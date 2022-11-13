@@ -44,10 +44,11 @@ p {
 }
 
 @keyframes fadein {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
@@ -56,12 +57,15 @@ p {
 .top-container {
   position: relative;
   padding-top: 100px;
-  background-color: #E2DCC8;
+  background: url(../images/cover-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 120px;
 }
 
 .enthusiast-head {
   font-weight: normal;
-  color: #3FA6A9
+  color: #3FA6A9;
 }
 
 .coding-text {
