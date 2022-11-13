@@ -6,6 +6,24 @@ body {
   text-shadow: 1px 1px 0 #BBB5A2;
 }
 
+@media (max-width: 800px)
+{
+    .fixed-top
+    {
+    position: relative;
+    top: auto;
+    }
+
+    .navbar {
+      font-size: 20px;
+      
+    }
+
+    .brand-logo-txt {
+      font-size: 40px;
+    }
+}
+
 h1 {
   font-family: 'Indie Flower', cursive;
   font-size: 5rem;
