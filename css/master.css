@@ -3,49 +3,32 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   color: #40514E;
-  text-shadow: 1px 1px 0 #BBB5A2;
-}
-
-@media (max-width: 800px)
-{
-    .fixed-top
-    {
-    position: relative;
-    top: auto;
-    }
-
-    .navbar {
-      font-size: 20px;
-
-    }
-
-    .brand-logo-txt {
-      font-size: 40px;
-    }
-
 }
 
 h1 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
   font-weight: 700;
   line-height: 2;
   margin: 50px auto 30px auto;
-  color: #0F3D3E;
+  color: #fff;
 }
+
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
-  color: #3FA6A9;
+  color: #8698a6;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #3FA6A9;
+  color: #8698a6;
   font-size: 1.17em;
+
 }
+
 
 .hr1 {
   background-color: transparent;
@@ -74,13 +57,17 @@ p {
   }
 }
 
-/*******************TOP CONTAINER*******************/
+.color-section {
+  background-color: #3B5F70;
+}
 
+.white-section {
+  background-color: #fff;
+}
+
+/*******************TOP CONTAINER*******************/
 #title {
   position: relative;
-  background: url(../images/cover-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-bottom: 120px;
 }
 
@@ -89,8 +76,14 @@ p {
 }
 
 .links-txt {
-  color: #3FA6A9;
+  color: #BBB5A2;
   font-family: 'Montserrat', sans-serif;
+  background-color: #3B5F70;
+  border-radius: 15px;
+  text-shadow: 0 0 0 #BBB5A2;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .portf-hover-txt:before {
@@ -99,16 +92,50 @@ p {
   opacity: 0;
   text-align: center;
   transition: opacity 1s ease-in-out;
-
   position: absolute;
-  top: 1.5em;
+  top: 4.5em;
 }
 
-@media (max-width: 800px) {
-  .portf-hover-txt:before{
-    top: 2em;
-    margin: 0 11px 0 11px;
+.navbar {
+  padding: 50px 15% 50px 15%;
+}
+
+.logopng {
+  background-color: #3B5F70;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 920px) {
+  .portf-hover-txt:before {
+    content: url(../images/soon800.png);
+    top: 0.7em;
   }
+
+  .fixed-top {
+    position: relative;
+    top: auto;
+  }
+
+  .brand-logo-txt {
+    font-size: 100px;
+    margin: 20px 0 0 15px;
+  }
+
+  .navbar {
+    padding-left: 18px;
+    padding-right: 0;
+  }
+
+  .navbar .navbar-expand {
+    text-align: center;
+  }
+
+  .links-txt {
+    font-size: 17px;
+    justify-content: flex-end;
+    margin: 15px 0 0 0;
+  }
+
 }
 
 .portf-hover-txt:hover:before {
@@ -117,19 +144,38 @@ p {
 }
 
 .top-container {
-  padding-top: 100px;
+  padding: 100px 30% 50px 30%;
+  text-align: center;
 }
 
-.enthusiast-head {
+.enthusiast-txt {
+  padding: 150px 0 20px 0;
+}
+
+.based-txt {
   font-weight: normal;
-  color: #3FA6A9;
+  color: #8698a6;
   margin: 0.83em 0 2em 0;
 }
+
+
 
 .coding-text {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 920px) {
+  .top-container {
+    padding: 100px 2% 50px 2%;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+  .enthusiast-txt {
+    font-size: 8rem;
+  }
+}
 
 /*******************PROFILE CONTAINER*******************/
 .profile-container {
@@ -157,6 +203,7 @@ p {
 .hello-txt {
   margin: 0.83em 0;
   padding-bottom: 15px;
+  color: #3B5F70;
 }
 
 .intro-txt {
@@ -165,10 +212,8 @@ p {
 }
 
 /*******************SKILL CONTAINER*******************/
-
 .skills-container {
-  background-color: #E2DCC8;
-  padding-top: 100px ;
+  padding-top: 100px;
   padding-bottom: 40px;
   color: #fff
 }
@@ -178,7 +223,6 @@ p {
   margin: 100px auto;
   text-align: left;
 }
-
 
 .html-img {
   width: 25%;
@@ -194,13 +238,13 @@ p {
 
 /*******************CONTACT CONTAINER*******************/
 .contact-container {
-  margin: 100px 0;
+  margin: 120px 0;
 }
 
 .btn {
   background: #e2dcc8;
-  background-image: linear-gradient(top, #3fa5a9, #0F3D3E);
-  background-image: linear-gradient(to bottom, #3fa5a9, #0F3D3E);
+  background-image: linear-gradient(top, #8698a6, #0F3D3E);
+  background-image: linear-gradient(to bottom, #8698a6, #0F3D3E);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -221,6 +265,7 @@ p {
 
 .git-talk {
   padding-bottom: 40px;
+  color: #3B5F70;
 }
 
 .lets-talk {
@@ -231,7 +276,6 @@ p {
 /*******************BOTTOM CONTAINER*******************/
 .bottom-container {
   margin-top: 25px;
-  background-color: #E2DCC8;
   padding-top: 50px;
 }
 
@@ -241,8 +285,8 @@ p {
   font-weight: bold;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.2rem;
-  margin: 10px 20px
+  font-size: 2rem;
+  margin: 10px 30px
 }
 
 .footer-link:hover {
@@ -253,6 +297,5 @@ p {
 .cert {
   color: #EAF6F6;
   padding: 20px 0 40px 0;
-  text-shadow: 2px 2px 0 #BBB5A2;
   font-family: 'Montserrat', sans-serif;
 }
