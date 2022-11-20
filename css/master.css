@@ -29,20 +29,6 @@ h3 {
 
 }
 
-
-.hr1 {
-  background-color: transparent;
-  border-style: dotted none none none;
-  width: 9%;
-  border-width: 10px;
-  border-color: #95907F;
-  margin: 100px auto;
-}
-
-.spacer {
-  height: 6px;
-}
-
 p {
   line-height: 2;
 }
@@ -105,35 +91,60 @@ p {
   border-radius: 5px;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 850px) {
+
+  .links-txt {
+    font-size: 30px;
+    margin: 5px 0 0 0;
+  }
+
+  .navbar {
+    padding: 8% 10% 8% 10%;
+  }
+
   .portf-hover-txt:before {
     content: url(../images/soon800.png);
-    top: 0.7em;
-  }
+    top: 3.5em;
+    right: 6.7em;
+    }
 
   .fixed-top {
     position: relative;
     top: auto;
   }
 
-  .brand-logo-txt {
-    font-size: 100px;
-    margin: 20px 0 0 15px;
+}
+
+@media screen and (max-width: 400px) {
+
+  #title {
+    padding-bottom: 0;
   }
+
+  .portf-hover-txt:before {
+    content: url(../images/soon100.png);
+    right: 5em;
+    }
+
+  .logopng {
+    width: 130px;
+    }
 
   .navbar {
-    padding-left: 18px;
-    padding-right: 0;
+    padding: 20px 3% 20px 5%;
   }
 
-  .navbar .navbar-expand {
-    text-align: center;
+  .navbar-brand {
+    margin: auto;
+  }
+
+  .navbar-nav {
+    margin: auto;
   }
 
   .links-txt {
-    font-size: 17px;
-    justify-content: flex-end;
-    margin: 15px 0 0 0;
+    font-size: 15px;
+    margin: 5px 0 0 0;
   }
 
 }
@@ -158,23 +169,40 @@ p {
   margin: 0.83em 0 2em 0;
 }
 
-
-
 .coding-text {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 850px) {
+
   .top-container {
-    padding: 100px 2% 50px 2%;
+    padding: 2% 2% 7% 2%;
   }
 
-  h1 {
-    font-size: 8rem;
-  }
   .enthusiast-txt {
-    font-size: 8rem;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    margin: 0;
   }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .top-container {
+    padding: 2% 2% 7% 2%;
+  }
+
+  .enthusiast-txt {
+    font-size: 3rem;
+    line-height: 1.7;
+  }
+
+  .based-txt {
+    font-size: 1.5rem;
+  }
+
 }
 
 /*******************PROFILE CONTAINER*******************/
@@ -208,7 +236,40 @@ p {
 
 .intro-txt {
   width: 30%;
-  margin: auto;
+}
+
+@media screen and (max-width: 850px) {
+
+  .profile-container {
+    margin-top: 40px;
+  }
+
+  .profile-pic1 {
+    visibility: hidden;
+  }
+
+  .profile-pic2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-pic2:hover {
+    opacity: 1;
+    }
+
+  .intro-txt {
+    width: auto;
+    padding: 0 27%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .profile-container {
+    margin: 25px 10% 50px 10%;
+  }
+
 }
 
 /*******************SKILL CONTAINER*******************/
@@ -236,9 +297,31 @@ p {
   margin-left: 30px;
 }
 
+@media screen and (max-width: 850px) {
+
+  .skill-row {
+    width: 80%
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+  .skills-container {
+    padding-top: 60px;
+  }
+
+  .skill-row {
+    width: 90%;
+    margin: 50px auto;
+    text-align: left;
+  }
+
+}
+
 /*******************CONTACT CONTAINER*******************/
 .contact-container {
-  margin: 120px 0;
+  padding: 120px 0;
 }
 
 .btn {
@@ -273,10 +356,26 @@ p {
   margin-top: 35px;
 }
 
+@media only screen and (max-width: 400px) {
+
+  .contact-container {
+    padding: 60px 0;
+  }
+
+  .contact-me {
+    margin: auto 10px auto 10px;
+  }
+
+  .lets-talk {
+    padding: 0 35px 0 35px;
+  }
+
+}
+
 /*******************BOTTOM CONTAINER*******************/
 .bottom-container {
   margin-top: 25px;
-  padding-top: 50px;
+  padding: 50px 2% 20px 2%;
 }
 
 .footer-link {
@@ -294,8 +393,15 @@ p {
   text-shadow: 1px 1px 0 #BBB5A2;
 }
 
-.cert {
-  color: #EAF6F6;
+.cert1 {
+  color: #fff;
+  padding: 30px 15% 0 15%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.cert2 {
+  color: #fff;
   padding: 20px 0 40px 0;
   font-family: 'Montserrat', sans-serif;
 }
